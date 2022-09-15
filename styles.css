@@ -7,7 +7,6 @@ body {
 	background-image: url('../hamburger.webp');
     background-size: cover;
 	background-color: #0005; background-blend-mode: darken;
-	
 	margin: 0;
 }
 
@@ -52,6 +51,10 @@ nav a:hover {
 	font-weight: 900;
 }
 
+#content {
+	height: 90vh;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -64,9 +67,10 @@ main {
 }
 
 footer {
-	position: block;
+	position: relative;
 	font-size: 2rem;
 	bottom: 0;
+	
 	text-align: end;
 }
 
