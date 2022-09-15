@@ -6,8 +6,12 @@ body {
 	color: rgb(235,235,235);
 	background-image: url('../hamburger.webp');
     background-size: cover;
+	background-color: #0005; background-blend-mode: darken;
+	
 	margin: 0;
 }
+
+
 
 nav {
 	overflow: hidden;
@@ -64,4 +68,22 @@ footer {
 	font-size: 2rem;
 	bottom: 0;
 	text-align: end;
+}
+
+#food-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#food-menu .heading {
+	font-size: 6rem;
+}
+
+.item-container {
+	display: grid;
+	width: 480px;
+	grid-template-columns: 6fr 1fr;
+	grid-template-rows:  1fr 1fr;
 }
