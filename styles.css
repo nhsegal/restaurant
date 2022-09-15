@@ -7,9 +7,7 @@ body {
 	background-image: url('../hamburger.webp');
     background-size: cover;
 	margin: 0;
-	
 }
-
 
 nav {
 	overflow: hidden;
@@ -21,7 +19,6 @@ nav {
 }
 	
     
-
 nav ol, nav ul {
     list-style: none;
 	margin-top: 0;
@@ -63,7 +60,7 @@ main {
 }
 
 footer {
-	position: fixed;
+	position: block;
 	font-size: 2rem;
 	bottom: 0;
 	text-align: end;
